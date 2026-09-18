@@ -55,7 +55,7 @@ function initGreeting() {
   let greeting;
 
   if (hour < 5) {
-    greeting = 'Burning the midnight oil';
+    greeting = 'Welcome, night owl';
   } else if (hour < 12) {
     greeting = 'Good morning';
   } else if (hour < 17) {
@@ -66,7 +66,7 @@ function initGreeting() {
     greeting = 'Good night';
   }
 
-  greetingEl.textContent = `${greeting}, welcome to my portfolio 👋`;
+  greetingEl.textContent = `${greeting}, Welcome to my portfolio!`;
 }
 
 /* ---------- 3. Mobile nav toggle + smooth scroll close ---------- */
