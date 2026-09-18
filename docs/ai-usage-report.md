@@ -11,6 +11,7 @@
 | Documentation support | Drafted the initial structure of this `README.md`, `ai-usage-report.md`, and `technical-documentation.md`, which I then reviewed and edited. |
 | UI/UX design suggestions | Suggested a card-based layout for the Projects and Experience sections and a sticky navbar with a theme toggle, informed by common portfolio site patterns. |
 | Debugging | Used to catch and fix a real bug: in dark mode, some sections weren't picking up the dark background properly during the toggle transition. Also helped troubleshoot Git/GitHub push errors (repository naming, folder nesting from a zip extraction, remote URL mismatches). |
+| Automated visual testing | Rather than manually eyeballing the CSS, I had Claude render the page in a headless browser and take screenshots of both the light and dark themes. Comparing those screenshots is what actually caught the dark-mode background bug — a transition timing issue that wasn't obvious from reading the code alone. |
 
 ## Benefits & Challenges
 
@@ -67,3 +68,4 @@
 - No AI-generated content was submitted unmodified — the structure was
   AI-assisted, but the content, personalization, project selection, and
   final code review are my own.
+- Used an automated screenshot-comparison approach (rather than just reading code or clicking around manually) to verify the site actually rendered correctly in both themes — this caught a real bug that code review alone had missed.
