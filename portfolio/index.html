@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nadiah Albinali | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Nadiah Albinali, Computer Science student focused on ML and data science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">N.A.</a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light theme">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero / Home ===== -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p id="greeting" class="greeting"><!-- filled by JS: time-of-day greeting --></p>
+        <h1>Hi, I'm <span class="accent">Nadiah Albinali</span></h1>
+        <p class="tagline">Computer Science student building toward machine learning &amp; data science, one project at a time.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Me ===== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="assets/images/profile-placeholder.svg" alt="Portrait placeholder of Nadiah Albinali" />
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a Computer Science student at King Fahd University of Petroleum and Minerals (KFUPM),
+              graduating in June 2028, with a focus on machine learning and data science.
+            </p>
+            <p>
+              I like turning coursework into real, shippable projects — from predictive models to
+              interactive web apps — and I'm currently building a portfolio of ML/data science work
+              on my way toward an international internship.
+            </p>
+            <ul class="about-facts">
+              <li><strong>Based in:</strong> Khobar / Dammam, Saudi Arabia</li>
+              <li><strong>Focus:</strong> Machine Learning &amp; Data Science</li>
+              <li><strong>Languages:</strong> Arabic &amp; English</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <img src="assets/images/project-study.svg" alt="Study performance data science project preview" class="project-img" />
+            <div class="project-body">
+              <h3>Factors Affecting Study Performance</h3>
+              <p>
+                A data science project analyzing which factors most strongly correlate
+                with student study performance, from data cleaning through exploratory
+                analysis and modeling.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Data Science</span>
+                <span class="tag">EDA</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-cpu.svg" alt="CPU design project preview" class="project-img" />
+            <div class="project-body">
+              <h3>CPU Design</h3>
+              <p>
+                A single-cycle CPU design built for COE 301, implementing the datapath
+                and control logic for a basic instruction set from the ground up.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Computer Architecture</span>
+                <span class="tag">COE 301</span>
+                <span class="tag">Digital Design</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-traffic-light.svg" alt="Traffic light controller project preview" class="project-img" />
+            <div class="project-body">
+              <h3>Traffic Light Controller</h3>
+              <p>
+                A digital logic design project for COE 203, implementing a traffic
+                light controller using finite state machines.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Digital Logic</span>
+                <span class="tag">COE 203</span>
+                <span class="tag">FSM</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-football.svg" alt="Football Analytics Dashboard preview" class="project-img" />
+            <div class="project-body">
+              <h3>Football Analytics Dashboard</h3>
+              <p>
+                A World Cup match analytics dashboard built with React and Streamlit,
+                exploring historical Kaggle data to surface team and match insights.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag tag-pending">Pending</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-placeholder.svg" alt="Placeholder for upcoming project" class="project-img" />
+            <div class="project-body">
+              <h3>More on the way</h3>
+              <p>
+                Next up: a computer-vision image captioning project, fine-tuning a model
+                like BLIP on a niche dataset for extra technical depth.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Computer Vision</span>
+                <span class="tag">In Progress</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-grid">
+
+          <article class="experience-card">
+            <h3>Media &amp; PR</h3>
+            <p class="experience-org">UAS 2030</p>
+          </article>
+
+          <article class="experience-card">
+            <h3>Documentation</h3>
+            <p class="experience-org">FCC</p>
+          </article>
+
+          <article class="experience-card">
+            <h3>Leader</h3>
+            <p class="experience-org">Solution Hackathon</p>
+          </article>
+
+          <article class="experience-card">
+            <h3>Member</h3>
+            <p class="experience-org">Tuwaiq Finance Committee</p>
+          </article>
+
+          <article class="experience-card">
+            <h3>Logistics &amp; Operations</h3>
+            <p class="experience-org">Diwan</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Have a question or want to collaborate? Send a message below.</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="error-message" id="name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="error-message" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="form-success" class="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Nadiah Albinali. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
