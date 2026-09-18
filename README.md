@@ -2,9 +2,6 @@
 
 A simple, responsive personal portfolio site built as the foundation of my
 professional portfolio, for the *Foundation & AI Integration* assignment.
-
-**Live site:** _add your GitHub Pages / Netlify / Vercel link here after deploying_
-
 ## Project Description
 
 This is a single-page portfolio with three core sections:
@@ -24,17 +21,16 @@ fully responsive across desktop, tablet, and mobile.
 
 ### Interactive features (JavaScript)
 
-- 🌙 **Dark / light theme toggle**, saved to `localStorage` so it persists
+- **Dark / light theme toggle**, saved to `localStorage` so it persists
   between visits.
-- 👋 **Time-of-day greeting** above the hero heading (morning/afternoon/
+- **Time-of-day greeting** above the hero heading (morning/afternoon/
   evening/night, based on the visitor's local time).
-- 📱 **Mobile navigation menu** with a hamburger toggle.
-- ✅ **Contact form validation** (name length, email format, message length)
+- **Mobile navigation menu** with a hamburger toggle.
+- **Contact form validation** (name length, email format, message length)
   with inline error messages — no backend required.
 - Smooth scrolling to sections via anchor links.
 
 ## Folder Structure
-
 ```
 assignment-1/
 ├── README.md
@@ -66,7 +62,6 @@ No build tools or dependencies are required.
 3. That's it — no `npm install`, no build step.
 
 ## Deployment (optional)
-
 To deploy for free on **GitHub Pages**:
 
 1. Push this repository to GitHub.

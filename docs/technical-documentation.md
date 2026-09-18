@@ -2,14 +2,13 @@
 
 ## Overview
 
-A static, three-section personal portfolio site (About, Projects, Contact)
-built with vanilla HTML, CSS, and JavaScript — no frameworks or build tools.
+A static, four-section personal portfolio site (About, Projects, Experience, Contact) built with vanilla HTML, CSS, and JavaScript — no frameworks or build tools.
 
 ## File Structure
 
 | File | Purpose |
 |---|---|
-| `index.html` | Page markup: header/nav, hero, About, Projects, Contact, footer. |
+| `index.html` | Page markup: header/nav, hero, About, Projects, Experience, Contact, footer. |
 | `css/styles.css` | All styling: CSS variables for theming, reset, layout (Flexbox/Grid), components, and responsive breakpoints. |
 | `js/script.js` | All interactivity, split into four init functions (see below). |
 | `assets/images/` | Placeholder SVGs for the profile photo and project cards (study performance, CPU design, traffic light, football dashboard, upcoming project) — SVG chosen so no binary image assets are needed and files stay lightweight. |
