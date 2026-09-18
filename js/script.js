@@ -60,10 +60,8 @@ function initGreeting() {
     greeting = 'Good morning';
   } else if (hour < 17) {
     greeting = 'Good afternoon';
-  } else if (hour < 21) {
-    greeting = 'Good evening';
   } else {
-    greeting = 'Good night';
+    greeting = 'Good evening';
   }
 
   greetingEl.textContent = `${greeting}, Welcome to my portfolio!`;
